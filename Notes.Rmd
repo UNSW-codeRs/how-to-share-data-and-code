@@ -1,0 +1,47 @@
+https://www.unesco.org/en/open-science
+
+Open Science has the potential of making the scientific process more transparent, inclusive and democratic.  It is increasingly recognized as a critical accelerator for the achievement of the United Nations Sustainable Development Goals and a true game changer in bridging the science, technology and innovation gaps and fulfilling the human right to science.
+
+https://en.wikipedia.org/wiki/Open_science
+
+Open science is the movement to make scientific research (including publications, data, physical samples, and software) and its dissemination accessible to all levels of society, amateur or professional.
+
+
+https://commons.wikimedia.org/wiki/File:To_deposit_or_not_to_deposit,_that_is_the_question_-_journal.pbio.1001779.g001.png
+
+
+UNSW works: https://unsworks.unsw.edu.au
+
+https://www.library.unsw.edu.au/research/publishing-and-sharing-your-research/open-access
+https://subjectguides.library.unsw.edu.au/publishing/data
+
+
+BOAI: https://www.budapestopenaccessinitiative.org/
+
+
+
+Rainbow of open science practices
+
+https://zenodo.org/record/1147025#.ZDyejLRBxhE
+
+From https://blogs.uef.fi/ueflibrary-bors/different-ways-to-make-your-research-more-open/
+
+…Share your data
+
+The research data that underpins publications should be accessible to support validation and facilitate data reuse. In cases where data sensitivities won’t allow open access, be sure to provide, at least, the descriptive metadata. The sharing of research data will be discussed more in Open research data.
+…Share your code
+
+Many researchers now develop bits of code to help them analyse and/or visualise the data they have collected. Having access to this code, in case your research involves codes, is essential for supporting the validation of your findings and to help others to build upon your work.
+
+
+Remember:
+
+    Practicing open science is more than just sharing your publications.
+    There are lots of opportunities to open up your work during the research lifecycle.
+    Several funding bodies expect researchers to share, at least, publications and data.
+    It does take a bit more work but there are many rewards.
+    Everyone has a role. How can you contribute to making science and research more open (see figure below for inspiration)?
+    
+From https://unimelb.libguides.com/openresearch/data
+See sections how to make your data open and how to make code and software open
+
