@@ -28,7 +28,8 @@ From https://blogs.uef.fi/ueflibrary-bors/different-ways-to-make-your-research-m
 
 …Share your data
 
-The research data that underpins publications should be accessible to support validation and facilitate data reuse. In cases where data sensitivities won’t allow open access, be sure to provide, at least, the descriptive metadata. The sharing of research data will be discussed more in Open research data.
+The research data that underpins publications should be accessible to support validation and facilitate data reuse. In cases where data sensitivities won’t allow open access, be sure to provide, at least, the descriptive metadata. 
+
 …Share your code
 
 Many researchers now develop bits of code to help them analyse and/or visualise the data they have collected. Having access to this code, in case your research involves codes, is essential for supporting the validation of your findings and to help others to build upon your work.
@@ -45,3 +46,8 @@ Remember:
 From https://unimelb.libguides.com/openresearch/data
 See sections how to make your data open and how to make code and software open
 
+
+
+```sh
+quarto install extension quarto-ext/fontawesome
+```
