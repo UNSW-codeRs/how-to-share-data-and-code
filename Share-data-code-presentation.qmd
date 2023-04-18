@@ -9,7 +9,7 @@ format:
   revealjs:
     theme: simple
     footer: "CES Skills seminar / 20th April 2023 / JR Ferrer-Paris"
-    logo: img/ces-logo.png
+    logo: img/ces-logo-transparent.png
     css: 
       - css/logo.css
       - css/inat.css
@@ -43,7 +43,7 @@ user_obs %>%
   DT::datatable(filter="none",options=list(searching=FALSE, paging=FALSE))
 ```
 
-## My treasure trove of observations 
+## My collection of observations
 
 ```{r}
 #| echo: true
@@ -69,8 +69,6 @@ leaflet(obs_df) %>%
 
 
 # What is Open Science
-
-## Open Science
 
 > Open science is the movement to make scientific research (including publications, data, physical samples, and software) and its dissemination accessible to all levels of society, amateur or professional.
 
@@ -105,7 +103,7 @@ https://www.unesco.org/en/open-science
 - Get **credit for your work**
 
 ::: aside
-Emma MacKenzie, Sophie Winterbourne, Felicity Anderson, Edward Wallace; The benefits of an open-science approach in student research projects. Biochem (Lond) 23 December 2021; 43 (6): 66–73. doi: https://doi.org/10.1042/bio_2021_198]
+Emma MacKenzie, Sophie Winterbourne, Felicity Anderson, Edward Wallace; The benefits of an open-science approach in student research projects. Biochem (Lond) 23 December 2021; 43 (6): 66–73. doi: https://doi.org/10.1042/bio_2021_198
 :::
 
 
@@ -121,13 +119,11 @@ To maximise discovery and reuse you should employ best practices in preparing an
 
 ### Intelectual property
 
-Resolve all issues concerning ownership and use with rights holders. 
-
-Do you work with [sensitive data](https://research.unsw.edu.au/handling-sensitive-data)?
-
 ### Data availability policies of journals/funders
 
 ### File formats
+
+### Do you work with [sensitive data](https://research.unsw.edu.au/handling-sensitive-data)?
 
 :::aside
 Check also ARDC's [Research Data Rights Management Guide](https://ardc.edu.au/resource/research-data-rights-management-guide/)
@@ -142,7 +138,9 @@ Check also ARDC's [Research Data Rights Management Guide](https://ardc.edu.au/re
 
 :::: r-stack
 ::: {.fragment .fade-out}
-### Identify yourself, e.g. {{< fa brands orcid >}}
+### Identify yourself
+
+Use a unique identifier like ORC{{< fa brands orcid >}} 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Should I pronounce <a href="https://twitter.com/ORCID_Org?ref_src=twsrc%5Etfw">@ORCID_Org</a> as orchid or orc-I-D? The latter seems like an evil Tolkien monster. <a href="https://twitter.com/hashtag/DigID17?src=hash&amp;ref_src=twsrc%5Etfw">#DigID17</a> <a href="https://twitter.com/hashtag/DHSI2017?src=hash&amp;ref_src=twsrc%5Etfw">#DHSI2017</a></p>&mdash; Dr. Laura Estill (@Laura_Estill) <a href="https://twitter.com/Laura_Estill/status/874688177910431745?ref_src=twsrc%5Etfw">June 13, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 :::
@@ -151,8 +149,8 @@ Check also ARDC's [Research Data Rights Management Guide](https://ardc.edu.au/re
 
 UNSW Sydney: 
 
-- https://ror.org/03r8z3t63
-- https://www.wikidata.org/wiki/Q734764
+- Research Organization Registry [ror.org/03r8z3t63](https://ror.org/03r8z3t63)
+- Wikidata [Q734764]([https://www.wikidata.org/wiki/Q734764)
 :::
 ::: {.fragment .fade-in-then-out}
 ### Identify your data
@@ -177,6 +175,8 @@ A Digital Object Identifier (DOI) is a unique, persistent identifier for researc
 
 
 # {{< fa solid code-branch >}} Share your code 
+
+Shared code helps you and your collaborators to analyse and/or visualise your data. It supports validation of your findings and help others to build upon your work.
 
 ## {{< fa solid code-branch >}} Why?
 
@@ -210,6 +210,7 @@ If you use git you can share your code with:
 
 # {{< fa up-right-from-square >}} Share your data
 
+Research data should be accessible to support validation and facilitate data reuse. For sensitive data provide the descriptive metadata.
 
 ## {{< fa up-right-from-square >}} Ask your librarians!
 
@@ -239,7 +240,7 @@ Check the Registry of Research Data Repositories ([r3data](https://www.re3data.o
 
 Anyone can sign up for an account, simple up-load and very easy to download and reuse data.
 
-I uploaded my `Rdata` file [here](https://figshare.com/articles/dataset/IUCN_Red_List_of_Ecosystem_assessment_results_for_IVC_Forest_Macrogroups_in_the_Americas_region/7488872)
+I uploaded my `Rdata` file [here](https://figshare.com/articles/dataset/IUCN_Red_List_of_Ecosystem_assessment_results_for_IVC_Forest_Macrogroups_in_the_Americas_region/7488872), now I can:
 
 ```{r}
 #| echo: true
@@ -255,9 +256,10 @@ close(con)
 
 Developed by CERN to support the open access and open science movement in Europe, but available for use by researchers worldwide.
 
-Great for github integration: transform your repository into a release with DOI.
-
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.5234108.svg)](https://doi.org/10.5281/zenodo.5234108)
+<div>
+<span style="vertical-align: top;">
+Great for github integration: now your repo has a DOI!</span> [![](https://zenodo.org/badge/DOI/10.5281/zenodo.5234108.svg)](https://doi.org/10.5281/zenodo.5234108)
+</div>
 
 :::
 ::: {.fragment .fade-in-then-out}
@@ -269,8 +271,6 @@ Great for github integration: transform your repository into a release with DOI.
 - Automatic DOI assignment
 - ORCID log in
 - CC0 license
-
-See [this example](https://doi.org/10.5061/dryad.k3j9kd58b)
 :::
 
 ::::
@@ -298,7 +298,8 @@ Remember, we are here to help:
 [UNSWorks](https://unsworks.unsw.edu.au) 
 
 <div>
-![UNSW codeRs logo](https://unsw-coders.netlify.app/images/logo_hu20be6c44ea68e676024b4aa4f3296560_161224_0x70_resize_lanczos_2.png){height=50} <span style="vertical-align: top;">[UNSW codeRs](https://unsw-coders.netlify.app/)</span>
+<span style="vertical-align: top;">[UNSW codeRs](https://unsw-coders.netlify.app/)</span>
+![UNSW codeRs logo](https://unsw-coders.netlify.app/images/logo_hu20be6c44ea68e676024b4aa4f3296560_161224_0x70_resize_lanczos_2.png){height=50} 
 </div>
 
 ## {.smaller background-image="https://inaturalist-open-data.s3.amazonaws.com/photos/101251571/medium.jpeg" background-opacity="0.3"}
